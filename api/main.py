@@ -1,9 +1,9 @@
 from typing import List , Optional
-from fastapi import FastAPI
+from fastapi import FastApi
 from pydantic import BaseModel
 from uuid import uuid4
 
-app = FastAPI()
+app = FastApi()
 
 class Animal(BaseModel):
     id: Optional[str]
